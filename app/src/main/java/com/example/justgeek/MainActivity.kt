@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity() {
             override fun onResponse(call: retrofit2.Call<ResponseBody>, response: Response<ResponseBody>) {
                 if (response.code() == 200) {
                     Toast.makeText(this@MainActivity, "Login success!", Toast.LENGTH_SHORT).show()
+                    startActivity(Intent(this@MainActivity, TutorialAccessFirst::class.java))
                 } else {
                     Toast.makeText(this@MainActivity, "Login failed!", Toast.LENGTH_SHORT).show()
                 }

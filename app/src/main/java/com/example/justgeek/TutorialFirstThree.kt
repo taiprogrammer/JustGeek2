@@ -16,7 +16,7 @@ class TutorialFirstThree : AppCompatActivity() {
         backStep.setOnClickListener { finish() }
 
         nextStep.setOnClickListener {
-            Intent(this, TutorialFirstFour::class.java)
+            startActivity(Intent(this, TutorialFirstFour::class.java))
         }
 
     }

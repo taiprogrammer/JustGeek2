@@ -13,7 +13,7 @@ class TutorialAccessFirst : AppCompatActivity() {
         val stepTwo = findViewById<AppCompatImageView>(R.id.go_to_second_step)
 
         stepTwo.setOnClickListener {
-            Intent(this, TutorialAccessTwo::class.java)
+            startActivity(Intent(this, TutorialAccessTwo::class.java))
         }
     }
 }
