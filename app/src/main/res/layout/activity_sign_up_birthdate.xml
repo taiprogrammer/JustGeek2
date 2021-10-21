@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpBirthdate"
+    android:background="@color/pattern_dark">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:title="@string/title_sing_up"
+        app:titleTextAppearance="@style/Exo2_Regular_Title"
+        app:titleTextColor="@color/pattern_light"
+        app:navigationIcon="@drawable/ic_toolbar_nav_icon"
+        android:background="@color/light_gray" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/page_indicator_birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/page_indicator_text_sign_up"
+        style="@style/Exo2_Bold_Subtitle_Highlight"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="@dimen/spacing_xsl"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_personal_data"
+        style="@style/Exo2_Regular_Subtitle"
+        app:layout_constraintTop_toTopOf="@id/page_indicator_birthday"
+        app:layout_constraintStart_toEndOf="@id/page_indicator_birthday"
+        android:layout_marginStart="@dimen/spacing_xs" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="@dimen/spacing_zero"
+        android:layout_height="@dimen/spacing_minimum"
+        android:src="@drawable/bg_hot_blue"
+        app:layout_constraintStart_toStartOf="@id/page_indicator_birthday"
+        app:layout_constraintEnd_toEndOf="@id/title"
+        app:layout_constraintTop_toBottomOf="@id/page_indicator_birthday"
+        android:layout_marginTop="@dimen/spacing_s" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/birthdate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_birthdate"
+        app:layout_constraintTop_toBottomOf="@id/page_indicator_birthday"
+        app:layout_constraintStart_toStartOf="@id/page_indicator_birthday"
+        android:textAppearance="@style/Exo2_Regular_Small_Subtitle"
+        android:layout_marginTop="@dimen/spacing_big"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/input_birthdate"
+        android:layout_width="@dimen/spacing_zero"
+        android:layout_height="@dimen/spacing_big"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="@dimen/spacing_sm"
+        android:background="@drawable/bg_light_rounded"
+        android:inputType="date"
+        app:layout_constraintEnd_toStartOf="@id/check_date"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/birthdate_title"
+        app:layout_constraintTop_toBottomOf="@id/birthdate_title"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/check_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/input_birthdate"
+        app:layout_constraintBottom_toBottomOf="@id/input_birthdate"
+        android:layout_marginEnd="@dimen/spacing_xsl"
+        android:src="@drawable/ic_approve_transparent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/spacing_zero"
+        android:layout_height="wrap_content"
+        android:onClick="goToEmailCellphoneScreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/back_button"
+        android:text="@string/button_next_sing_up"
+        android:paddingVertical="@dimen/spacing_sm"
+        android:textAppearance="@style/Exo2_Semibold_Button_Text"
+        android:background="@drawable/bg_button_next"
+        android:layout_marginStart="@dimen/spacing_ml"
+        android:layout_marginEnd="@dimen/spacing_ml"
+        android:layout_marginBottom="@dimen/spacing_ml"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back_button"
+        android:layout_width="@dimen/spacing_zero"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="@string/button_back_sing_up"
+        android:paddingVertical="@dimen/spacing_sm"
+        android:textAppearance="@style/Exo2_Semibold_Button_Text"
+        android:background="@drawable/bg_back_button"
+        android:layout_marginStart="@dimen/spacing_ml"
+        android:layout_marginEnd="@dimen/spacing_ml"
+        android:layout_marginBottom="@dimen/spacing_ml"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

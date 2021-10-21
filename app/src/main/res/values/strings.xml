@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">JustGeek</string>
+    <!--LOGIN PAGE-->
+    <string name="subtitle_forgot_password">Esqueci minha senha</string>
+    <string name="title_button_signin">Entrar</string>
+    <string name="title_button_signup">Cadastrar</string>
+    <string name="subtitle_error_invalid_email">Email inválido</string>
+    <string name="subtitle_error_invalid_password">Senha inválida</string>
+    <string name="title_sign_in_input_email" translatable="false">Email</string>
+    <string name="title_sign_in_input_password">Senha</string>
+    <string name="title_version_app_login">Versão 1.0.0</string>
+
+    <!--SING UP REGION STRINGS-->
+    <string name="page_indicator_text_sign_up" translatable="false">%1$d/5</string>
+    <string name="title_sing_up" translatable="false">Cadastro</string>
+    <string name="subtitle_personal_data" translatable="false">Dados pessoais</string>
+    <string name="subtitle_contact_data" translatable="false">Dados de contato</string>
+    <string name="button_next_sing_up">Continuar</string>
+    <string name="button_back_sing_up">Voltar</string>
+    <string name="title_name">Insira seu nome:</string>
+    <string name="title_last_name">Insira seu sobrenome:</string>
+    <string name="title_cpf">Insira seu CPF:</string>
+    <string name="title_birthdate">Insira sua data de nascimento:</string>
+    <string name="title_email" translatable="false">Insira seu email:</string>
+    <string name="title_cellphone" translatable="false">Insira seu número de celular:</string>
+    <string name="checkbox_newsletter" translatable="false">Desejo receber novidades e cupons pelo email</string>
+    <string name="error_message" translatable="false">%1$s</string>
+    <string name="subtitle_access_key" translatable="false">Chave de acesso</string>
+    <string name="title_password" translatable="false">Crie uma senha:</string>
+    <string name="title_confirm_password" translatable="false">Confirme a senha:</string>
+    <string name="title_finish" translatable="false">Oba!\nSua conta na</string>
+    <string name="title_finish_2" translatable="false">foi criada com \nsucesso!</string>
+    <string name="button_sing_up_login_text" translatable="false">Fazer Login</string>
+
+    <!--TUTORIAL FIRST ACCESS-->
+    <string name="title_just_geek_tutorial">Just Geek - Quem somos</string>
+    <string name="text_who_we_are">A JustGeek é um ecommerce que oferece uma variedade de estampas
+        que vão da pop culture até o mais oldschool.  Além de tudo, os produtos
+        são lindos e de qualidade.</string>
+    <string name="title_your_ideas_our_trace">Suas ideias, nosso traço</string>
+    <string name="text_your_ideas_our_trace">Você pode customizar suas roupas do modo que quiser.
+        É só deixar a criatividade fluir e conversar com a nossa equipe. Aqui, você com certeza
+        vai achar o que gosta.</string>
+    <string name="title_staff_artists">STAFF - Artistas</string>
+    <string name="text_staff_artists">Você pode se comunicar com a equipe de artistas da
+        JustGeek para fazer seus pedidos customizados. Tenha algo único, só para você.
+        É fácil, rápido e sem estresse.</string>
+    <string name="title_see_you_later">Até mais ver</string>
+    <string name="text_see_you_later">Aguardamos ansiosamente pelos seus pedidos, seja de qual
+        parte do Brasil forem. Agora, explore e aproveite nosso app, com uma variedade
+        imensa de estampas.  A JustGeek agradece!</string>
+
+</resources>

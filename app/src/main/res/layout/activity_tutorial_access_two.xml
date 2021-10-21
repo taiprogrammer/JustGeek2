@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TutorialAccessTwo"
+    android:background="@drawable/bg_second_step">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icon_refuse_second_step_tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_refuse_transparent"
+        android:layout_marginLeft="@dimen/spacing_medium"
+        android:layout_marginTop="@dimen/spacing_medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_title_second_step_tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_your_ideas_our_trace"
+        android:textAppearance="@style/Exo2_Semibold_Button_Text"
+        android:textColor="@color/pattern_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon_refuse_second_step_tutorial" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_subtitle_second_step_tutorial"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text_your_ideas_our_trace"
+        android:textAppearance="@style/Exo2_Regular_Subtitle"
+        android:textColor="@color/pattern_light"
+        android:layout_marginTop="@dimen/spacing_medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_title_second_step_tutorial" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_medium"
+        android:src="@drawable/ic_nav_showcase_second_page"
+        app:layout_constraintEnd_toEndOf="@+id/text_subtitle_second_step_tutorial"
+        app:layout_constraintStart_toStartOf="@+id/text_subtitle_second_step_tutorial"
+        app:layout_constraintTop_toBottomOf="@+id/text_subtitle_second_step_tutorial" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/go_to_step_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/spacing_medium"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:src="@drawable/ic_continue_filled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ic_back_step_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_continue_to_back_transparent"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:layout_marginLeft="@dimen/spacing_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

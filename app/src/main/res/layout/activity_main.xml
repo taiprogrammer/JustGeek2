@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_login_page">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/ic_question"
+        android:id="@+id/toolbar_question_login"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="169dp"
+        android:layout_height="67dp"
+        android:src="@drawable/ic_justgeek_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/spacing_big"
+        android:id="@+id/title_just_geek_login"
+        app:layout_constraintTop_toBottomOf="
+        @+id/toolbar_question_login"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/input_email"
+        android:layout_width="373dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="@dimen/spacing_big"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/bg_light_rounded"
+        android:hint="@string/title_sign_in_input_email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="@dimen/spacing_medium"
+        android:textAppearance="@style/Exo2_Regular_Subtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_just_geek_login" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icon_refuse_email_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_sm"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/input_email"
+        app:layout_constraintTop_toBottomOf="@+id/input_email" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_wrong_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_sm"
+        android:text="@string/subtitle_error_invalid_email"
+        android:textAppearance="@style/Exo2_Regular_Subtitle"
+        android:textColor="@color/hot_pink"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/icon_refuse_email_error"
+        app:layout_constraintStart_toEndOf="@+id/icon_refuse_email_error"
+        app:layout_constraintTop_toTopOf="@+id/icon_refuse_email_error" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/input_password"
+        android:layout_width="373dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_light_rounded"
+        android:hint="@string/title_sign_in_input_password"
+        android:paddingStart="@dimen/spacing_medium"
+        android:textAppearance="@style/Exo2_Regular_Subtitle"
+        android:layout_marginTop="@dimen/spacing_sm"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/input_email"
+        app:layout_constraintStart_toStartOf="@+id/icon_refuse_email_error"
+        app:layout_constraintTop_toBottomOf="@+id/text_wrong_email" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icon_refuse_password_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginTop="@dimen/spacing_sm"
+        app:layout_constraintStart_toStartOf="@+id/input_password"
+        app:layout_constraintTop_toBottomOf="@+id/input_password" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_wrong_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_error_invalid_password"
+        android:textAppearance="@style/Exo2_Regular_Subtitle"
+        android:textColor="@color/hot_pink"
+        android:visibility="invisible"
+        android:layout_marginLeft="@dimen/spacing_sm"
+        app:layout_constraintBottom_toBottomOf="@+id/icon_refuse_password_error"
+        app:layout_constraintStart_toEndOf="@+id/icon_refuse_password_error"
+        app:layout_constraintTop_toTopOf="@+id/icon_refuse_password_error" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/title_forgot_passcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_forgot_password"
+        android:textAppearance="@style/Exo2_Regular_Subtitle"
+        android:textColor="@color/pattern_light"
+        android:layout_marginTop="@dimen/spacing_sm"
+        app:layout_constraintStart_toStartOf="@+id/icon_refuse_password_error"
+        app:layout_constraintTop_toBottomOf="@+id/icon_refuse_password_error" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_sign_in"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_max_big"
+        android:text="@string/title_button_signin"
+        android:textColor="@color/pattern_light"
+        android:background="@drawable/bg_button_next"
+        android:textAppearance="@style/Exo2_Semibold_Button_Text"
+        app:layout_constraintEnd_toEndOf="@+id/input_password"
+        app:layout_constraintStart_toStartOf="@+id/title_forgot_passcode"
+        app:layout_constraintTop_toBottomOf="@+id/title_forgot_passcode" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_sign_up"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_big"
+        android:text="@string/title_button_signup"
+        android:textColor="@color/pattern_light"
+        android:background="@drawable/bg_button_sign_up"
+        android:textAppearance="@style/Exo2_Semibold_Button_Text"
+        app:layout_constraintEnd_toEndOf="@+id/button_sign_in"
+        app:layout_constraintStart_toStartOf="@+id/button_sign_in"
+        app:layout_constraintTop_toBottomOf="@+id/button_sign_in" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:text="@string/title_version_app_login"
+        android:textColor="@color/dark_gray"
+        android:textAppearance="@style/Exo2_Regular_Subtitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_sign_up"
+        app:layout_constraintStart_toStartOf="@+id/button_sign_up" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

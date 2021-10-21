@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--JustGeek NEUTRAL color pallet-->
+    <color name="pattern_light">#E9E9E9</color>
+    <color name="pattern_dark_transparent">#80000000</color>
+    <color name="hot_gray">#8B80A5</color>
+    <color name="dark_gray">#5E5769</color>
+    <color name="light_gray">#34313A</color>
+    <color name="medium_gray">#2C2831</color>
+    <color name="pattern_dark">#211F26</color>
+    <!-- END JustGeek NEUTRAL color pallet-->
+
+    <!--JustGeek PINK color pallet-->
+    <color name="hot_pink">#F41B61</color>
+    <color name="light_pink">#BF175B</color>
+    <color name="medium_pink">#BD1574</color>
+    <color name="dark_pink">#97106B</color>
+    <color name="dark_pinkish_purple">#221641</color>
+    <!-- END JustGeek PINK color pallet-->
+
+    <!-- JustGeek PURPLE color pallet -->
+    <color name="hot_purple">#75118A</color>
+    <color name="light_purple">#591381</color>
+    <color name="medium_purple">#5E167D</color>
+    <color name="dark_purple">#3F1378</color>
+    <color name="darkest_purple">#281343</color>
+    <!-- END JustGeek PURPLE color pallet -->
+
+    <!--JustGeek BLUE - GREEN color pallet-->
+    <color name="hot_green">#13B898</color>
+    <color name="hot_blue">#52C1CC</color>
+    <color name="light_blue">#4F8AC8</color>
+    <color name="medium_blue">#4B59C5</color>
+    <color name="dark_blue">#46359C</color>
+    <color name="price_blue">#53B6C2</color>
+    <!-- END JustGeek BLUE color pallet-->
+</resources>

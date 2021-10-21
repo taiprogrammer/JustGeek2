@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/bg_back_button.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/bg_button_next.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/bg_button_sign_up.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/bg_first_step.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/bg_fourth_step.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/bg_hot_blue.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/bg_light_rounded.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/bg_login_page.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/bg_third_step.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_approve_transparent.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_checked_checkbox.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_continue_filled.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_continue_to_back_transparent.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_custom_checkbox.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_justgeek.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_justgeek_login.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_logo_stroke.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_logo_translucent.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_nav_showcase_first_page.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_nav_showcase_last_page.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_nav_showcase_second_page.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_nav_showcase_third_page.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_question.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_refuse_transparent.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_toolbar_nav_icon.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable-v24/ic_unchecked_checkbox.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/drawable/ic_refresh.xml" value="0.2078125" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/layout/activity_login_after_sign_up.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/layout/activity_sign_up_birthdate.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/layout/activity_sign_up_cpf.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/layout/activity_sign_up_email_cellphone.xml" value="0.22" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/layout/activity_sign_up_name.xml" value="0.25" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/layout/activity_sign_up_password.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/layout/activity_tutorial_access_first.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/layout/activity_tutorial_access_two.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/layout/activity_tutorial_first_four.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/taiza/Documents/Projects/mobile/JustGeek2/app/src/main/res/layout/activity_tutorial_first_three.xml" value="0.19166666666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

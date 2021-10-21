@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_zero">0dp</dimen>
+    <dimen name="spacing_minimum">2dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_s">6dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_sl">10dp</dimen>
+    <dimen name="spacing_xsl">12dp</dimen>
+    <dimen name="spacing_medium">14dp</dimen>
+    <dimen name="spacing_ms">18dp</dimen>
+    <dimen name="spacing_ml">20dp</dimen>
+    <dimen name="spacing_xml">22dp</dimen>
+    <dimen name="spacing_big">24dp</dimen>
+    <dimen name="spacing_bs">26dp</dimen>
+    <dimen name="spacing_bm">28dp</dimen>
+    <dimen name="spacing_bl">30dp</dimen>
+    <dimen name="spacing_xbl">32dp</dimen>
+    <dimen name="spacing_maximum">34dp</dimen>
+    <dimen name="spacing_max_s">36dp</dimen>
+    <dimen name="spacing_max_m">38dp</dimen>
+    <dimen name="spacing_max_l">40dp</dimen>
+    <dimen name="spacing_max_xl">42dp</dimen>
+    <dimen name="spacing_max_xxl">44dp</dimen>
+    <dimen name="spacing_max_xxxl">46dp</dimen>
+    <dimen name="spacing_max_big">48dp</dimen>
+
+    <dimen name="font_size_minimum">10sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_medium">14sp</dimen>
+    <dimen name="font_size_large">16sp</dimen>
+    <dimen name="font_size_big">18sp</dimen>
+    <dimen name="font_size_extreme">24sp</dimen>
+</resources>
