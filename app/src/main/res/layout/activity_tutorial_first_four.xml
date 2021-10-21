@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TutorialFirstFour"
-    android:background="@drawable/bg_fourth_step">
+    android:background="@drawable/image_background_step_four_first_access">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/icon_refuse_last_step_tutorial"
